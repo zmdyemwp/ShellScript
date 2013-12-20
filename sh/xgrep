@@ -1,0 +1,4 @@
+#!/bin/bash
+echo find \""$1"\" files with \""$2"\"
+#find . -name "$1" -exec grep -wl "$2" {} \;
+find . -name "$1" | xargs grep -i "$2"

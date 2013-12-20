@@ -1,0 +1,1 @@
+pwd | head -c -1 | xsel -ib
