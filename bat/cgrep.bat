@@ -4,5 +4,5 @@
 @ echo        [*.h]
 @ findstr /i /s /n /a:0d /c:%1% *.h*
 @ echo:
-@ echo        [*.c/*.cpp]
+@ echo        [*.c; *.cpp]
 @ findstr /i /s /n /a:0d /c:%1% *.c*
