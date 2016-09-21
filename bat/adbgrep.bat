@@ -1,0 +1,1 @@
+@ adb shell logcat *:V | findstr $1

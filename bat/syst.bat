@@ -1,0 +1,1 @@
+E:\Development\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\systrace\systrace.py %*

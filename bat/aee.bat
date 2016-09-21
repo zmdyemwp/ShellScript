@@ -1,0 +1,1 @@
+e:\Tools\mtk\aee_extract.exe %1
