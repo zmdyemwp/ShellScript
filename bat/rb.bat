@@ -1,0 +1,1 @@
+@IF [%1]==[] (ECHO REBOOT BOOTLOADER&&adb shell reboot bootloader) ELSE (ECHO REBOOT BOOTLOADER %1&&adb -s %1 shell reboot bootloader)

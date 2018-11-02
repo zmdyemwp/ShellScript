@@ -1,0 +1,1 @@
+adb -s %1 shell reboot -p

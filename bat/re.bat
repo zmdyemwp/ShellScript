@@ -1,0 +1,1 @@
+@IF [%1]==[] (ECHO REBOOT&&adb shell reboot) ELSE (ECHO REBOOT %1&&adb -s %1 shell reboot)
